@@ -1,0 +1,55 @@
+@font-face {
+	font-family: 'Nimbus';
+	src: url('/fonts/Nimbus\ Sans\ Becker\ PBla\ Regular.otf') format('opentype');
+  }
+
+  @font-face {
+	font-family: 'TNanti';
+	src: url('/fonts/TNanti-Demo.otf') format('opentype');
+  }
+
+  @font-face {
+	font-family: 'Made Tommy';
+	src: url('/fonts/MADE\ Tommy\ Soft\ Medium\ PERSONAL\ USE.otf') format('opentype');
+  }
+
+  @font-face {
+	font-family: 'Sweet Cupcake';
+	src: url('/fonts/Sweet\ Cupcake\ demo.ttf') format('truetype');
+  }
+
+  @font-face {
+	font-family: 'Calistoga';
+	src: url('/fonts/Calistoga-Regular.ttf') format('truetype');
+  }
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body{
+    min-width: 100vh;
+    overflow-x: hidden;
+    justify-content: center;
+}
+
+.footer {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	color: white;
+}
+
+.footer__div {
+	font-family: 'Nimbus'; /* Menambahkan gaya font */
+	font-size: 65px;
+	letter-spacing: 15px;
+	color: var(--pr-color);
+	text-transform: uppercase;
+}
+
+.footer__div span {
+	display: inline-block;
+}

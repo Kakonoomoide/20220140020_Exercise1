@@ -1,0 +1,141 @@
+.contcard {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+ }
+
+.card {
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 270px;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: rgba(255, 255, 255, 0.8);
+    opacity: 80;
+    overflow-y: hidden;
+}
+
+/*card img 1*/
+.imgcont1 {
+    position: relative;
+    width: 300px;
+    height: 400px; /* Atur tinggi sesuai kebutuhan */
+  }
+  
+  .imgcont1 img {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    pointer-events: none;
+    transition: transform 1s ease;
+  }
+  
+  #image1 {
+    top: 0;
+    left: 0;
+  }
+  
+  #image2 {
+    top: 0; /* Atur posisi awal untuk image2 */
+    left: 0;
+  }
+  
+  #image3 {
+    top: 0; /* Atur posisi awal untuk image3 */
+    left: 0;
+  }
+  
+  #image4 {
+    top: 0; /* Atur posisi awal untuk image4 */
+    left: 0;
+  }
+/*card img 2*/
+.imgcont2 {
+    position: relative;
+    width: 300px;
+    height: 400px; /* Atur tinggi sesuai kebutuhan */
+  }
+  
+  .imgcont2 img {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    pointer-events: none;
+    transition: transform 1s ease;
+  }
+  
+  #image5 {
+    top: 0;
+    left: 0;
+  }
+  
+  #image6 {
+    top: 0; /* Atur posisi awal untuk image2 */
+    left: 0;
+  }
+  
+  #image7 {
+    top: 0; /* Atur posisi awal untuk image3 */
+    left: 0;
+  }
+  
+  #image8 {
+    top: 0; /* Atur posisi awal untuk image4 */
+    left: 0;
+  }
+
+/*card img 3*/
+
+.imgcont3 {
+    position: relative;
+    width: 300px;
+    height: 400px; /* Atur tinggi sesuai kebutuhan */
+  }
+  
+  .imgcont3 img {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    pointer-events: none;
+    transition: transform 1s ease;
+  }
+  
+  #image9 {
+    top: 0;
+    left: 0;
+  }
+  
+  #image10 {
+    top: 0; /* Atur posisi awal untuk image2 */
+    left: 0;
+  }
+  
+  #image11 {
+    top: 0; /* Atur posisi awal untuk image3 */
+    left: 0;
+  }
+  
+  #image12 {
+    top: 0; /* Atur posisi awal untuk image4 */
+    left: 0;
+  }
+  
+  #image13 {
+    top: 0; /* Atur posisi awal untuk image4 */
+    left: 0;
+  } 
+
+  #image14 {
+    top: 0; /* Atur posisi awal untuk image4 */
+    left: 0;
+  } 
+
+  #image15 {
+    top: 0; /* Atur posisi awal untuk image4 */
+    left: 0;
+  }

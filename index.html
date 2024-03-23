@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>kakonoomoide</title>
+
+    <!-- Masukkan script GSAP -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.0/gsap.min.js"></script>
+    <!-- Masukkan plugin ScrollTrigger -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.0/ScrollTrigger.min.js"></script>
+    <!-- Masukkan plugin parallax card -->
+    <script
+      type="module"
+      src="https://gitcdn.xyz/repo/tonis2/parallax-cards/master/cards.js"
+    ></script>
+    <!-- GSAP core -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.0/gsap.min.js"
+      integrity="sha512-dI7zJlSin4j33zrEo+Z5mj+77WAOY6O2a175uCfYcjpGuTnTWbFp1G/+0Pv6CpNZX3I+l0md847d3UZlqfIwQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <!-- ScrollTrigger plugin -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.0/plugins/ScrollTrigger.min.js"
+      integrity="sha512-Kb9w0DYmSceE5h8EzVcC9dZXzEeGXnJUQQ41mFAPXW9eg2NzFr25O8L075g/Dy/JCaE7Gxw2xhKbSdr8i/YfQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <!-- MotionPathPlugin plugin (optional) -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.0/plugins/MotionPathPlugin.min.js"
+      integrity="sha512-5zrRv7/k5oZiDzpqJ3qh3FmPpJpzY30nD7W7Jf9tG+L5nX2l7K1CvaN8i5LyZ0+13WfvjKv6ZSzx6mU1vGRA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <!-- Menghubungkan file eksternal CSS -->
+    <link rel="stylesheet" href="./styles/global.css" />
+    <link rel="stylesheet" href="./styles/scrolltext.css" />
+    <link rel="stylesheet" href="./styles/parallax.css" />
+    <link rel="stylesheet" href="./styles/information.css" />
+
+    <!-- mengganti icon web -->
+    <link rel="icon" href="./src/parallax.png" type="image/png" />
+  </head>
+  <body>
+    <header>
+      <div class="images">
+        <!-- i have cut the images into 7 layers from photoshop -->
+        <img src="./src/homecd/layer1.png" alt="" id="Home1" />
+        <img src="./src/homecd/layer2.png" alt="" id="Home2" />
+        <img src="./src/homecd/layer3.png" alt="" id="Home3" />
+        <img src="./src/homecd/layer4.png" alt="" id="Home4" />
+        <img src="./src/homecd/layer5.png" alt="" id="Home5" />
+        <img src="./src/homecd/layer6.png" alt="" id="Home6" />
+        <img src="./src/homecd/layer7.png" alt="" id="Home7" />
+      </div>
+      <h1 class="title" id="text1">PARALLAX</h1>
+    </header>
+
+    <div class="contcard">
+      <div class="card">
+        <div class="IntCard1">
+          <div class="imgcont1">
+            <img src="./src/card1/1.png" alt="Image1-1" id="image1" />
+            <img src="./src/card1/2.png" alt="Image1-2" id="image2" />
+            <img src="./src/card1/3.png" alt="Image1-3" id="image3" />
+            <img src="./src/card1/4.png" alt="Image1-4" id="image4" />
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="IntCard2">
+          <div class="imgcont2">
+            <img src="./src/card3/1.png" alt="Image2-1" id="image5" />
+            <img src="./src/card3/2.png" alt="Image2-2" id="image6" />
+            <img src="./src/card3/3.png" alt="Image2-3" id="image7" />
+            <img src="./src/card3/4.png" alt="Image2-4" id="image8" />
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="IntCard3">
+          <div class="imgcont3">
+            <img src="./src/card2/sky.png" alt="sky" id="image9" />
+            <img
+              src="./src/card2/cloud_lonely.png"
+              alt="cloud_lonely"
+              id="image10"
+            />
+            <img src="./src/card2/clouds_bg.png" alt="clouds_bg" id="image11" />
+            <img
+              src="./src/card2/glacial_mountains.png"
+              alt="glacial_mountains"
+              id="image12"
+            />
+            <img
+              src="./src/card2/clouds_mg_3.png"
+              alt="clouds_mg_1"
+              id="image13"
+            />
+            <img
+              src="./src/card2/clouds_mg_2.png"
+              alt="clouds_mg_2"
+              id="image14"
+            />
+            <img
+              src="./src/card2/clouds_mg_1.png"
+              alt="clouds_mg_3"
+              id="image15"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="information">
+      <div class="cover">
+        <div class="text__information-cover">
+          <h1>Elegi Kehampaan: Menyusuri Sunyi dalam Kehilangan</h1>
+          <p>
+            Di balik senyum tersembunyi rasa, rasa yang terabaikan oleh dunia.
+            Setiap langkah, setiap hembusan angin malam, menghembuskan kesepian
+            yang teramat dalam. Tiada yang mampu menggantikan kekosongan di
+            relung hati yang terluka. Kutemukan diriku terjebak dalam gelap,
+            gelap yang menghantui setiap malam. Rindu merajalela di tengah
+            sunyi, memanggil namamu dalam bisikan angin. Tapi engkau tiada,
+            tinggal bayang-bayang yang mengingatkan betapa hampa kini hidupku.
+          </p>
+        </div>
+        <div class="media__cover">
+          <img src="./src/information/write.gif" alt="writegif" />
+        </div>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <div class="footer__div">
+        <span data-speed="150">K</span>
+        <span data-speed="-200">a</span>
+        <span data-speed="250">K</span>
+        <span data-speed="-100">o</span>
+        <span data-speed="300">n</span>
+        <span data-speed="-50">o</span>
+        <span data-speed="200">o</span>
+        <span data-speed="-150">m</span>
+        <span data-speed="100">o</span>
+        <span data-speed="50">i</span>
+        <span data-speed="-300">d</span>
+        <span data-speed="-250">e</span>
+      </div>
+    </footer>
+
+    <audio id="myAudio" autoplay loop>
+      <source src="./src/audio/bgaudio.mp3" type="audio/mpeg" />
+      Your browser does not support the audio element.
+    </audio>
+
+    <script src="./script/parallax.js" defer></script>
+    <script src="./script/scrolltext.js" defer></script>
+    <script src="./script/footer.js" defer></script>
+    <script src="./script/audio.js" defer></script>
+  </body>
+</html>

@@ -1,0 +1,40 @@
+.information {
+    display: flex;
+    justify-content: center; /* Untuk mengatur teks dan video menjadi berada di tengah halaman */
+    margin-top: 200px;
+    margin-left: 150px;
+    width: 1200px;
+    height: 500px;
+}
+
+.cover {
+    display: flex;
+    width: 80%; /* Atur lebar sesuai kebutuhan */
+}
+
+.text__information-cover {
+    flex: 1; /* Bagian teks akan mengambil sisa ruang yang tersedia */
+    margin-top: 80px;
+    margin-right: 20px; /* Tambahkan margin ke kanan agar berpisah dari elemen berikutnya */
+    align-items: center;
+    color: white;
+    font-family: 'Made Tommy';
+    text-transform: uppercase;
+}
+
+.media__cover {
+    flex: 1; /* Bagian video akan mengambil sisa ruang yang tersedia */
+    display: flex;
+    justify-content: flex-end; /* Untuk menempatkan video di kanan */
+    align-items: center; /* Untuk membuat video berada di tengah secara vertikal */
+}
+
+.media__cover img {
+    max-width: 100%; /* Maksimalkan lebar gambar agar sesuai dengan lebar area yang tersedia */
+    height: auto; /* Atur tinggi gambar agar sesuai proporsinya */
+}
+
+.text__information-cover p {
+    margin-top: 20px;
+    text-align: justify;
+}
